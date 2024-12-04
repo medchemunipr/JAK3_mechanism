@@ -3,3 +3,4 @@ US_simulations_compound3 contains:
 2. plumed.dat input file (please note that the RC value should be adapted to each corresponding US window)
 3. prod.in Amber input file 
 4. prmtop and inpcrd Amber files
+5. RC values recorded for the 23 US windows (300ps for each window) used to perform WHAM analysis (US_results.txt)
