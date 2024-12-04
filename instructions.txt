@@ -3,3 +3,4 @@ Metadynamics-simulations-(pre-reactive-pose) contains:
 2. prod.in Amber input file
 3. plumed.dat file (and relative ref.pdb file to apply the restraint on the RMSD)
 4. prmtop and inpcrd Amber files
+5. HILLS_2 (output file from which FES have been calculated)
