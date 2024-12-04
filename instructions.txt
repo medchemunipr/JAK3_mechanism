@@ -1,0 +1,6 @@
+Thermodynamic_integration_geometries-6DUD contains:
+1. Input geometries of the non-reactive and pre-reactive pose within JAK3 (6DUD used as starting models) 
+	snapXXX_G54_Ploop.rst structures are taken from MD simulations of compound 3 within 6DUD (non-reactive pose)
+	snapXXX_HB4_Ploop.rst structures are taken from MD simulations of compound 2 within 6DUD (non-reactive pose)
+	snapXXX_G54_Cys.rst structures are taken from MD simulations of compound 3 within 6DUD (non-reactive pose)
+	snapXXX_HB4_Cys.rst structures are taken from MD simulations of compound 2 within 6DUD (non-reactive pose)
