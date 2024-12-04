@@ -1,0 +1,6 @@
+Thermodynamic_integration_geometries-6DB3 contains:
+1. Input geometries of the non-reactive and pre-reactive pose within JAK3 (6DB3 used as starting models) 
+	snapXXX_G54_Ploop.rst structures are taken from MD simulations of compound 3 within 6DB3 (non-reactive pose)
+	snapXXX_HB4_Ploop.rst structures are taken from MD simulations of compound 2 within 6DB3 (non-reactive pose)
+	snapXXX_G54_Cys.rst structures are taken from MD simulations of compound 3 within 6DB3 (pre-reactive pose)
+	snapXXX_HB4_Cys.rst structures are taken from MD simulations of compound 2 within 6DB3 (pre-reactive pose)
