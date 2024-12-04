@@ -1,0 +1,5 @@
+US_simulations_compound2 contains:
+1. starting geometries to perform US simulations (obtained from SMD simulations)
+2. plumed.dat input file (please note that the RC value should be adapted to each corresponding US window)
+3. prod.in Amber input file 
+4. prmtop and inpcrd Amber files
