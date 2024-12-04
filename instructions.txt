@@ -1,0 +1,5 @@
+Metadynamics-simulations-(non-reactive-pose) contains:
+1. starting geometries of the JAK3-2 non-reactive complex 
+2. prod.in Amber input file
+3. plumed.dat file (and relative ref.pdb file to apply the restraint on the RMSD)
+4. prmtop and inpcrd Amber files
