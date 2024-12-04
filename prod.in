@@ -1,0 +1,10 @@
+molecular dynamics run (Lang NVT, T = 298 K, 500 ps, timesteps ridotti, 50kcal/mol su soluto)
+&cntrl
+imin=0, irest=1, ntx=5,
+nstlim=250000000, dt=0.002, ntc=2
+cut=10
+ntpr=20000, ntwr=10000, ntwx=50000, iwrap=1, ntwe=100000, ioutfm=1,
+ntt=3, temp0=298.0, tempi=298.0, gamma_ln=5.0,
+ntb=1, ntp=0, ntf=2, plumed=1,
+ntr=0,
+/

@@ -1,0 +1,5 @@
+Metadynamics-simulations-(pre-reactive-pose) contains:
+1. starting geometries of the JAK3-2 pre-reactive complex (two different frames taken from the 2.25 us-long MD simulation, used to perform two independent replicas)
+2. prod.in Amber input file
+3. plumed.dat file (and relative ref.pdb file to apply the restraint on the RMSD)
+4. prmtop and inpcrd Amber files
