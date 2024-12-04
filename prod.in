@@ -1,0 +1,27 @@
+equilibrazione 25ps NVT restr CA
+&cntrl
+imin=0, irest=1, ntx=5,
+nstlim=250000, dt=0.0001, ntc=2
+cut=10,
+ntpr=5000, ntwr=5000, ntwx=500, iwrap=1, ntwe=5000, ioutfm=1, 
+ntt=3, temp0=298.0, tempi=298.0, gamma_ln=5.0,
+ntb=1, ntp=0, ntf=2, ifqnt=1, nmropt=0,
+ntr=1, plumed=1,
+restraint_wt=1.0,
+restraintmask='(@CA & !:16-18,90-101,141-144,154,155)',
+/
+
+&ewald
+/
+/
+&qmmm
+ qmmask=':100@1618-1623 | :COV@1527-1568 | :9974@33674-33676',
+ qmcharge=-1,
+ qm_theory='DFTB3',
+ qmshake=0,
+ qmcut=10.0,
+ printcharges=1,
+ verbosity=2,
+ writepdb=1,
+/
+
